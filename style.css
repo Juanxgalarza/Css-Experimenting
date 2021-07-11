@@ -1,0 +1,78 @@
+
+html {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(67,9,121,1) 41%, rgba(0,212,255,1) 100%);
+  animation: gradient 69s ease infinite;
+  display: flex;
+  background-size: 400%, 400%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+
+img {
+
+  border: 3px solid white;
+  border-style: inset;
+  border-spacing: inherit;
+  border-radius: 50%;
+  height: 100;
+  width: 150px;
+  padding: .2rem;
+  margin: 2rem;
+  }
+  .nombreJuan {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: .9rem;
+    color: white;
+    padding: 5rem;
+    text-shadow: black 0 0 10px;
+  }
+.tituloGen {
+  font-family: 'Hind Siliguri', sans-serif;
+      color: white;
+      text-shadow: black 0px 0px 2px;
+}
+.infoGen {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: black 0px 0px 2px;
+
+}
+.hr {
+  border: 2px solid white;
+  border-radius: 90%;
+}
+.botonUnico {
+  border: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(circle, rgba(2,0,36,1) 0%, rgba(67,9,121,1) 41%, rgba(100,212,34,1) 100%);
+  animation: button 9s ease infinite;
+  background-size: 400%, 400%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: black 0px 0px 2px;
+}
+@keyframes button {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
